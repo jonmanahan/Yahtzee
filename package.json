@@ -1,0 +1,19 @@
+{
+  "name": "yahtzee",
+  "version": "1.0.0",
+  "main": "Yahtzee.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Yahtzee.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "description": ""
+}
